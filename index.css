@@ -166,7 +166,8 @@ body {
 }
 
 .header p {
-  font-size: 48px;
+  font-size: 50px;
+  color: white;
 }
 
 .cards {
@@ -192,11 +193,13 @@ body {
 
 .card .name {
   font-size: 3.4rem;
+  color: white;
 }
 
 .card p {
   font-size: 1.4rem;
   margin-bottom: 3px;
+  color: white;
 }
 
 .card .username {

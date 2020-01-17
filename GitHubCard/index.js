@@ -1,5 +1,5 @@
 const followersArray = [
-  "devin5",
+  "Kat2bk",
   "alborja07",
   "Seth16",
   "MaxiCB",
