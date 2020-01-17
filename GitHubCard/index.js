@@ -29,6 +29,8 @@ function createFollower(obj) {
   const gitFollowing = document.createElement("p");
   const userBio = document.createElement("p");
 
+  // appending
+
   cardDisplay.appendChild(imgUrl);
   cardDisplay.appendChild(cardInfo);
   cardInfo.appendChild(userTitle);
@@ -38,6 +40,8 @@ function createFollower(obj) {
   cardInfo.appendChild(gitFollowers);
   cardInfo.appendChild(gitFollowing);
   cardInfo.appendChild(userBio);
+
+  // adding classes
 
   cardDisplay.classList.add("card");
   imgUrl.classList.add("img");
