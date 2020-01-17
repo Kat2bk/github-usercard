@@ -68,9 +68,9 @@ function createFollower(obj) {
   return cardDisplay;
 }
 
-const displayList = document.querySelector(".cards");
+// made a variable and set it to the parent of the cardDisplay
 
-// displayList.append(createFollower())
+const displayList = document.querySelector(".cards");
 
 /* List of LS Instructors Github username's: 
   tetondan
