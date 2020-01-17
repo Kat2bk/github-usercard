@@ -53,6 +53,8 @@ function createFollower(obj) {
   gitFollowing.classList.add("p");
   userBio.classList.add("p");
 
+  // set data to the elements, setting them as objects to be used in the array
+
   imgUrl.setAttribute("src", obj.data.avatar_url);
 
   userTitle.textContent = obj.data.name;
